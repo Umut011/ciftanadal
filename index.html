@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Atatürk Üniversitesi | ÇAP & Yandal Sesli Danışman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            width: 90%;
+            max-width: 900px;
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        header p {
+            font-size: 15px;
+            opacity: 0.85;
+        }
+
+        .info {
+            background: rgba(0, 0, 0, 0.25);
+            border-left: 4px solid #00c6ff;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .agent-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Çift Anadal & Yandal Sesli Danışman</h1>
+        <p>Atatürk Üniversitesi Öğrencileri için Dijital Bilgilendirme Sistemi</p>
+    </header>
+
+    <div class="info">
+        Bu sayfa, Atatürk Üniversitesi Çift Anadal (ÇAP) ve Yandal yönergelerine
+        dayalı olarak çalışan bir sesli danışman ajandır.
+        Öğrenciler başvuru şartları, not ortalaması, mezuniyet ve program
+        detayları hakkında sesli olarak bilgi alabilir.
+    </div>
+
+    <div class="agent-box">
+        <elevenlabs-convai agent-id="agent_3901kcpbvfzbej2rvm0hz52bjvjg"></elevenlabs-convai>
+    </div>
+
+    <footer>
+        © 2025 Atatürk Üniversitesi | Akademik Amaçlı Proje
+    </footer>
+
+</div>
+
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+</body>
+</html>
